@@ -1,0 +1,82 @@
+.container {
+  width: 1238px;
+  height: 435px;
+  background-color: #545351;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+  .container .slide {
+    position: absolute;
+    top: 0;
+    height: 435px; }
+    .container .slide div {
+      float: left; }
+    .container .slide .menu {
+      width: 91px;
+      height: 435px;
+      background-color: #BA1E32; }
+      .container .slide .menu p {
+        transform: rotate(-90deg);
+        position: relative; }
+    .container .slide .image {
+      width: 965px;
+      height: 435px; }
+  .container #slide-1 {
+    left: 0;
+    z-index: 1;
+    background-color: yellow; }
+    .container #slide-1 .image {
+      display: block; }
+  .container #slide-2 {
+    left: 1056px;
+    z-index: 2;
+    background-color: green; }
+    .container #slide-2 .image {
+      display: none; }
+  .container #slide-3 {
+    left: 1147px;
+    z-index: 3;
+    background-color: purple; }
+    .container #slide-3 .image {
+      display: none; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  width: 100%;
+  height: 100%; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=style.css.map */

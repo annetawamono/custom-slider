@@ -1,0 +1,63 @@
+.container {
+  width: 1238px;
+  height: 435px;
+  background-color: $grey;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  .slide {
+    // width: 1056px;
+    // float: left;
+    position: absolute;
+    top: 0;
+    height: 435px;
+
+    div {
+      float: left;
+    }
+
+    .menu {
+      width: 91px;
+      height: 435px;
+      background-color: $red;
+      p {
+        transform: rotate(-90deg);
+        position: relative;
+      }
+    }
+
+    .image {
+      width: 965px;
+      height: 435px;
+      // background-color: $black;
+    }
+  }
+
+  #slide-1 {
+    left: 0;
+    z-index: 1;
+    background-color: yellow;
+    .image {
+      display: block;
+    }
+  }
+
+  #slide-2 {
+    left: 1056px;
+    z-index: 2;
+    background-color: green;
+    .image {
+      display: none;
+    }
+  }
+
+  #slide-3 {
+    left: 1147px;
+    z-index: 3;
+    background-color: purple;
+    .image {
+      display: none;
+    }
+  }
+}
